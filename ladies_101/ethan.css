@@ -1,0 +1,29 @@
+.mirror {
+	border: solid #0f0d10 30px;
+	border-radius: 6px;
+	display: inline-flex;
+	border-left-color: #1c191b;
+	border-top-color: #252123;
+	border-right-color: #080709;
+}
+
+.container {
+	text-align: center;
+	margin-top: 0.5em;
+}
+
+#shirt {
+	width: 460px;
+	height: 560px;
+}
+
+.data {
+	display: none !important;
+}
+
+#overlay {
+	width: 460px;
+	height: 560px;
+	position: absolute;
+	user-select: none;
+}

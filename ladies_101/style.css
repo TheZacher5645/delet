@@ -1,0 +1,46 @@
+html, body {
+	height: 100%;
+}
+
+.wrap {
+	position: relative;
+	min-height: 100%;
+	display: grid;
+}
+
+.body {
+	padding: 15px;
+	display: grid;
+}
+
+body {
+	font-family: "Arial";
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	margin: 0;
+}
+
+.main {
+	border: solid #000 4px;
+	padding: 20px;
+}
+
+ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h2 {
+	margin-bottom: 0;
+}
+
+a {
+	color: #000;
+}
+
+a:active {
+	color: #f00;
+}
