@@ -59,4 +59,7 @@ function setup() {
 	}
 }
 
-window.onload = setup;
+window.onload = function() {
+	setup();
+	_gaq.push(["_setCustomVar", 1, "ScreenResolution", String(screen.width)+"x"+String(screen.height), 1]);
+}
