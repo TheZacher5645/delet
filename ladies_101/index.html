@@ -89,8 +89,10 @@ also I have a twitter xd
 	</script>
 	<script async src='https://www.google-analytics.com/ga.js'></script>
 	<script>
-		var _gaq = _gaq || []
-		_gaq.push(["_setCustomVar", 1, "ScreenResolution", String(screen.width)+"x"+String(screen.height), 1])
+		setTimeout(function() {
+			var _gaq = _gaq || []
+			_gaq.push(["_setCustomVar", 1, "ScreenResolution", String(screen.width)+"x"+String(screen.height), 1])
+		}, 1000);
 	</script>
 </body>
 </html>
