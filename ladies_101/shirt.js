@@ -61,5 +61,9 @@ function setup() {
 
 window.onload = function() {
 	setup();
-	_gaq.push(["_setCustomVar", 1, "ScreenResolution", String(screen.width)+"x"+String(screen.height), 1]);
+	ga("send", {
+	  hitType: "event",
+	  eventCategory: "ScreenResolution",
+	  eventAction: String(screen.width)+"x"+String(screen.height),
+	});
 }
